@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>
+    .material-icons {
+        vertical-align: top;
+        padding-right: 1px;
+
+    }
+    #pricetag{
+        color: red;
+    }
+    .back-image {
+  background-image: url("https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-repeat: repeat-x;
+  height: 200px;
+  position: relative;
+    }
+</style>
+</head>
+<body>
+        <nav class="navbar navbar-expand-sm navbar-expand-xs navbar-expand-md bg-danger navbar-dark"> 
+                <a class="navbar-brand" href="#" style="color:white;"><img src="https://image.shutterstock.com/image-vector/knife-fork-vector-icon-flat-600w-764792872.jpg" alt="truyum" width="40" height="40" ><span style="padding-left: 10px;">truYum</span></a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                 
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                            <ul class="navbar-nav  ml-auto">
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Menu Items</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Cart</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"> <i class="material-icons" id="usericon">person</i>John</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Logout</a>
+                              </li>
+                            </ul>
+                          </div>  
+                        </nav>
+
+
+                        <div class="container-fluid">
+                                <div class="row ">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 pb-3">
+                                                <div class="back-image "></div>
+                                                <div class="card-img-overlay ">
+                                                        <p class="card-text ">
+                                                                <h1 class="card-title">
+                                                                        <p class="text-white">Find Food</p>
+                                                                        </h1>
+                                                                       </p>
+                                                                       
+                                                        <div class="input-group">
+                                                                        <div class="card-body">
+                                                        <div class="input-group-prepend">
+                                                        <span class="input-group-text" ><i class="material-icons">local_cafe</i></span>
+                                               
+                                                        
+                                                        <input type='text' class="form-control" placeholder="Search Food">
+                                                </div>
+                                                    
+                                                    </div>
+                                                </div>
+                                                </div> 
+                                                </div>
+                                                </div>   
+                            <div class="row">
+                                    <div class=" col-lg-3 col-md-6 ">
+                                            <div class="card">
+                                                    <div class="card-body">
+                                                    <img class="card-img-top" src="https://images.unsplash.com/reserve/jCCsCae7RwCDOKTCA2Ji_reggeli%20-%20sonk%C3%A1s%20szendvics.JPG?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8c2FuZHdoaWNofGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Card image cap">
+                                                  
+                                                            <h6 class="card-title">Sandwich<span class="float-right" id="pricetag"> ₹99 </span></h6>
+                                                            <h6 class="card-subtitle text-muted mb-2">Main Course <span class="float-right"> <i class="material-icons" id="usericon">airport_shuttle</i><span class="badge badge-primary">Free</span> </span> </h6>
+                                                           
+                                 <span class="float-right"> <a href="#" class="btn btn-danger"><i class="material-icons" id="shoppingicon" style="vertical-align:middle">shopping_cart</i>Add to Cart</a>
+                                  
+                                 </span>
+                                </div>
+                              </div>
+                                    </div>
+                         
+
+                                    <div class=" col-lg-3 col-md-6 ">
+                                            <div class="card">
+                                                    <div class="card-body">
+                                                    <img class="card-img-top" src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8YnVyZ2Vyc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Card image cap">
+                                                   
+                                                            <h6 class="card-title">Burger<span class="float-right"  id="pricetag"> ₹129 </span></h6>
+                                                            <h6 class="card-subtitle text-muted mb-2">Main Course </h6>
+                                                            
+                                                            <span class="float-right"> <a href="#" class="btn btn-danger"><i class="material-icons" id="shoppingicon" style="vertical-align:middle">shopping_cart</i>Add to Cart</a>
+                                  
+                                                            </span>
+                                </div>
+                              </div>
+                                    </div>
+                 
+ 
+                                    <div class=" col-lg-3 col-md-6 ">
+                                            <div class="card">
+                                                    <div class="card-body">
+                                                    <img class="card-img-top" src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Card image cap">
+                                                    
+                                                            <h6 class="card-title">Pizza<span class="float-right"  id="pricetag"> ₹149 </span></h6>
+                                                            <h6 class="card-subtitle text-muted mb-2">Main Course </h6>
+                                                            
+                                                            <span class="float-right"> <a href="#" class="btn btn-danger"><i class="material-icons" id="shoppingicon" style="vertical-align:middle">shopping_cart</i>Add to Cart</a>
+                                  
+                                                            </span>
+                                </div>
+                              </div>
+                                    </div>
+                 
+
+                                    <div class=" col-lg-3 col-md-6">
+                                            <div class="card">
+                                                    <div class="card-body">
+                                                    <img class="card-img-top" src="https://images.unsplash.com/photo-1589963099822-196152500713?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8ZnJlbmNoJTIwZnJpZXN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Card image cap">
+                                                    
+                                                            <h6 class="card-title">French Fries<span class="float-right"  id="pricetag">₹57 </span></h6>
+                                                            <h6 class="card-subtitle text-muted mb-2">Starter <span class="float-right"> <i class="material-icons" id="usericon">airport_shuttle</i><span class="badge badge-primary">Free</span> </span></h6>
+                                                           
+                                                            <span class="float-right"> <a href="#" class="btn btn-danger"><i class="material-icons" id="shoppingicon" style="vertical-align:middle">shopping_cart</i>Add to Cart</a>
+                                  
+                                                            </span>
+                                </div>
+                              </div>
+                                    </div>
+                            </div>
+                            <div class="row">
+                                    <div class=" col-lg-3 col-md-6 ">
+                                            <div class="card">
+                                                    <div class="card-body">
+                                                    <img class="card-img-top" src="https://images.unsplash.com/photo-1461009312844-e80697a81cc7?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Y2hvY29sYXRlJTIwYnJvd25pZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Card image cap">
+                                                    
+                                                            <h6 class="card-title">Chocolate Brownie<span class="float-right"  id="pricetag"> ₹32 </span></h6>
+                                                            <h6 class="card-subtitle text-muted mb-2">Dessert<span class="float-right"> <i class="material-icons" id="usericon">airport_shuttle</i><span class="badge badge-primary">Free</span> </span> </h6>
+                                                            
+                                                            <span class="float-right"> <a href="#" class="btn btn-danger"><i class="material-icons" id="shoppingicon" style="vertical-align:middle">shopping_cart</i>Add to Cart</a>
+                                  
+                                                            </span>
+                                </div>
+                              </div>
+                                    </div>
+                                    </div>
+                                    <div class="row bg-danger">
+                                            <div class=" col-lg-3 col-md-6">
+                                                <div class="card-body ">
+                                                        <p class="card-text " style="color: white;"> Copyright 2019
+                                                            </p>
+                                                            </div>
+                                                </div>
+                                                </div>
+                                                
+                                    </div>
+                                
+
+
+
+                 <!--       <div class="jumbotron text-left" style="margin-top:100%; margin-bottom:0; ">
+                            <p>Footer</p>
+                          </div>
+                        -->
+    </body>
+</html>

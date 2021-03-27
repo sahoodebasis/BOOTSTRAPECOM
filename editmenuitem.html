@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css"/>
+  <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+  <style>
+    .material-icons {
+        vertical-align: top;
+        padding-right: 1px;
+
+    }
+    #footer {
+        position: absolute; 
+        left:0; 
+        bottom:0;        
+        width:100%;
+}
+</style>
+</head>
+<body>
+        <nav class="navbar navbar-expand-sm navbar-expand-xs navbar-expand-md bg-danger navbar-dark"> 
+                <a class="navbar-brand" href="#" style="color:white;"><img src="https://image.shutterstock.com/image-vector/knife-fork-vector-icon-flat-600w-764792872.jpg" alt="truyum" width="40" height="40" ><span style="padding-left: 10px;">truYum</span></a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                 
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                            <ul class="navbar-nav  ml-auto">
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Menu Items</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"> <i class="material-icons" id="usericon">person</i>John</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Logout</a>
+                              </li>
+                            </ul>
+                          </div>  
+                        </nav>
+
+        <div class="container">
+                <h2>Edit Menu Item</h2>
+                <form action="">
+                  <div class="form-group">
+                        <div class="row">
+                                <div class="col-lg-12">
+                                    <label for="fname">Item Name</label>
+                                  <input type="text" class="form-control" id="fname"  name="fname">
+                                </div>
+                        </div>
+                  </div>
+                  <div class="form-group">
+                        <div class="row">
+                                <div class="col-lg-3">
+                                    <label for="priceform">Price</label>
+                                  <input type="text" class="form-control" id="priceform"  name="priceform">
+                                </div>
+                                <div class="col-lg-3">
+                                        <label for="dob">Date of Birth</label>
+                                        <input type="text" class="form-control" id="dob" name="dob">
+                                        <script>
+                                                $('#dob').datepicker({
+                                                    uiLibrary: 'bootstrap4',
+                                                    format: 'dd/mm/yyyy'
+                                                });
+                                            </script>
+                                </div>
+                                <div class="col-lg-3">
+                                        <label for="category">Category</label>
+                                        <select class="form-control" id="category" name="category">
+                                          <option></option>
+                                          <option>abc</option>
+                                          <option>def</option>
+                                          <option>ghi</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-3">
+                                            <label for="active">Active</label><br>
+                                            <div class="form-check-inline">
+                                                    <label class="form-check-label" for="yes">
+                                                      <input type="radio" class="form-check-input" id="yes" name="active" value="yes">Yes
+                                                    </label>
+                                                  </div>
+                                                  <div class="form-check-inline">
+                                                    <label class="form-check-label" for="no">
+                                                      <input type="radio" class="form-check-input" id="no" name="active" value="no">No
+                                                    </label>
+                                                  </div>
+                                    </div>
+                            
+                        </div>
+                  </div>
+                  <div class="form-group">
+                        <div class="row">
+                                <div class="col">
+                                        <div class="form-check-inline">
+                                                <label class="form-check-label">
+                                                  <input type="checkbox" class="form-check-input" id="pmt" name="pmt" >Free Delivery
+                                                </label>
+                            
+                                              </div>
+                                    </div>
+                        </div>
+                  </div>
+                  <button type="submit" class="btn btn-danger">Save</button>
+                </form>
+                <div class="row bg-danger" id="footer">
+                        <div class=" col-lg-3 col-md-6" >
+                            <div class="card-body ">
+                                    <p class="card-text " style="color: white;"> Copyright 2019
+                                        </p>
+                                        </div>
+                            </div>
+                            </div>
+              </div>
+    </body>
+</html>
